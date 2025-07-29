@@ -8,5 +8,5 @@ services:
       - key: DJANGO_SECRET_KEY
         value: k!km)cxrx)5e+9x_f1bdxhr!33w!9aamct5pts!kgt7w7ga5bq
       - key: PYTHON_VERSION
-        value: 3.12
+        value: 3.12.3
 

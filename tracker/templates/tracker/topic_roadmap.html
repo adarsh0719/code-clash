@@ -1,0 +1,176 @@
+{% extends "tracker/base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1 class="mb-4">Learning Roadmap</h1>
+
+    {% if messages %}
+        {% for message in messages %}
+            <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+                {{ message }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        {% endfor %}
+    {% endif %}
+
+    <div class="card mb-4">
+        <div class="card-header bg-primary text-white">
+            <h2 class="h4 mb-0">Your Progress Through the Topics</h2>
+        </div>
+        <div class="card-body">
+            <p class="card-text">
+                Complete topics in order to unlock new ones. Each topic requires 
+                {% if topic_data and topic_data|length > 1 %}
+                    {{ topic_data.1.topic.unlock_threshold }}% completion of the previous topic to unlock.
+                {% else %}
+                    70% completion of the previous topic to unlock.
+                {% endif %}
+            </p>
+        </div>
+    </div>
+
+    {% if topic_data %}
+        <div class="roadmap-container">
+            {% for tp in topic_data %}
+            <div class="roadmap-item {% if not tp.is_unlocked %}roadmap-locked{% endif %}">
+                <div class="roadmap-header">
+                    <h3 class="mb-0">
+                        {% if not tp.is_unlocked %}
+                            <i class="fas fa-lock me-2"></i>
+                        {% else %}
+                            <i class="fas fa-check-circle me-2 text-success"></i>
+                        {% endif %}
+                        {{ tp.topic.name }}
+                    </h3>
+                    <span class="badge bg-secondary">Topic {{ forloop.counter }}</span>
+                </div>
+
+                <div class="roadmap-body">
+                    <div class="progress mb-2">
+                        <div class="progress-bar 
+                            {% if tp.percentage >= 100 %}bg-success
+                            {% elif tp.percentage >= tp.topic.unlock_threshold %}bg-info
+                            {% else %}bg-primary{% endif %}"
+                            role="progressbar"
+                            style="width: {{ tp.percentage|floatformat:0 }}%"
+                            aria-valuenow="{{ tp.percentage|floatformat:0 }}"
+                            aria-valuemin="0" aria-valuemax="100">
+                            {{ tp.percentage|floatformat:0 }}%
+                        </div>
+                    </div>
+
+                    <div class="roadmap-stats d-flex flex-wrap gap-2">
+                        <span class="stat-item d-flex align-items-center">
+                            <i class="fas fa-check-circle text-success me-1"></i> 
+                            {{ tp.solved }} solved
+                        </span>
+                        <span class="stat-item d-flex align-items-center">
+                            <i class="fas fa-tasks me-1"></i> 
+                            {{ tp.total }} total
+                        </span>
+
+                        {% if tp.is_unlocked %}
+                        <a href="{% url 'problem_list' %}?topics={{ tp.topic.id }}" class="btn btn-sm btn-primary ms-auto">
+                            Practice Problems
+                        </a>
+                        {% endif %}
+                    </div>
+
+                    {% if not tp.is_unlocked and forloop.counter0 > 0 %}
+                    <div class="roadmap-lock-message mt-2">
+                        <i class="fas fa-info-circle me-1"></i>
+                        Complete previous topic to {{ tp.topic.unlock_threshold }}% to unlock this topic.
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <div class="alert alert-info">
+            <i class="fas fa-info-circle me-1"></i>
+            No topics available yet. Please check back later or contact support.
+        </div>
+    {% endif %}
+</div>
+
+<style>
+    .roadmap-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .roadmap-item {
+        border: 1px solid #dee2e6;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        transition: all 0.3s ease;
+    }
+
+    .roadmap-locked {
+        opacity: 0.7;
+        background-color: #f8f9fa;
+    }
+
+    .roadmap-item:hover:not(.roadmap-locked) {
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        transform: translateY(-2px);
+    }
+
+    .roadmap-header {
+        padding: 1rem;
+        background-color: #f1f8ff;
+        border-bottom: 1px solid #dee2e6;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .roadmap-body {
+        padding: 1rem;
+    }
+
+    .roadmap-stats {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 0.5rem;
+    }
+
+    .stat-item {
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+        font-size: 0.9rem;
+    }
+
+    .roadmap-lock-message {
+        margin-top: 0.5rem;
+        padding: 0.5rem;
+        background-color: #fff3cd;
+        border-radius: 0.25rem;
+        color: #856404;
+        font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+        .roadmap-stats {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0.5rem;
+        }
+
+        .roadmap-header {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0.5rem;
+        }
+
+        .roadmap-locked .roadmap-body {
+            pointer-events: none;
+        }
+    }
+</style>
+{% endblock %}

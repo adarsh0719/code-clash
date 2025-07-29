@@ -1,0 +1,111 @@
+{% extends "tracker/base.html" %}
+{% load static %}
+
+{% block content %}
+<style>
+    body {
+        background: linear-gradient(to bottom right, #f8f9fa, #e9ecef);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        background-color: #ffffff;
+        border: none;
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        overflow: hidden;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+    }
+
+    .card-header {
+        background: linear-gradient(135deg, #343a40 0%, #23272b 100%);
+        color: #ffffff;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        padding: 1rem;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .card-header::before {
+        content: "";
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
+        transform: rotate(30deg);
+    }
+
+    .card-header h2 {
+        position: relative;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        margin: 0;
+        font-size: 1.4rem;
+    }
+
+    .card-body {
+        padding: 1rem;
+    }
+
+    .btn-primary {
+        background: linear-gradient(135deg, #343a40 0%, #23272b 100%);
+        border: none;
+        border-radius: 8px;
+        padding: 10px 20px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        transition: all 0.3s;
+        color: #fff;
+    }
+
+    .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 7px 14px rgba(50, 50, 93, 0.15), 0 3px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn-outline-secondary {
+        border-radius: 8px;
+        padding: 10px 20px;
+        font-weight: 600;
+        border: 1px solid #ced4da;
+        color: #495057;
+        transition: all 0.3s;
+        background-color: transparent;
+    }
+
+    .btn-outline-secondary:hover {
+        background-color: #dee2e6;
+        color: #212529;
+    }
+</style>
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="text-center">Logout Successful</h2>
+                </div>
+                <div class="card-body text-center">
+                    <p>You have been successfully logged out.</p>
+                    <div class="mt-4 d-flex justify-content-center gap-2 flex-wrap">
+                        <a href="{% url 'login' %}" class="btn btn-primary me-2">Login Again</a>
+                        <a href="{% url 'public_dashboard' %}" class="btn btn-outline-secondary">Return to Home</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

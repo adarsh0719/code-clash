@@ -1,0 +1,59 @@
+body {
+    background-color: #f8f9fa;
+    padding-bottom: 60px; /* Add padding for footer */
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+
+.progress {
+    height: 25px;
+    border-radius: 12px;
+}
+
+.badge {
+    font-weight: normal;
+    padding: 0.5em 0.8em;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Custom badge colors */
+.badge-easy {
+    background-color: #28a745;
+}
+
+.badge-medium {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.badge-hard {
+    background-color: #dc3545;
+}
+
+/* Form styling */
+.form-label {
+    font-weight: 500;
+}

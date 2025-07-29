@@ -1,0 +1,129 @@
+{% extends "tracker/base.html" %}
+
+{% block content %}
+<style>
+    body {
+        background-color: #f5f7fa;
+    }
+
+    .hero-section {
+        background-color: #ffffff;
+        padding: 3rem 2rem;
+        border-radius: 16px;
+        box-shadow: 0 8px 24px rgba(62, 62, 62, 0.151);
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .hero-section h1 {
+        font-size: 2.6rem;
+        font-weight: 700;
+        color: #222;
+    }
+
+    .hero-section p {
+        font-size: 1.1rem;
+        color: #555;
+        margin-top: 1rem;
+    }
+
+    .hero-buttons a {
+        padding: 0.75rem 2rem;
+        font-size: 1rem;
+        margin: 0.5rem;
+    }
+
+    .feature-card {
+        background: #ffffff;
+        border-radius: 12px;
+        padding: 2rem 1.5rem;
+        text-align: center;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        height: 100%;
+    }
+
+    .feature-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    }
+
+    .feature-card i {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        color: #0d6efd;
+    }
+
+    .feature-card h5 {
+        font-weight: 600;
+        margin-bottom: 0.75rem;
+        color: #222;
+    }
+
+    .feature-card p {
+        color: #666;
+        font-size: 0.95rem;
+    }
+
+    .section-heading {
+        text-align: center;
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+        color: #333;
+    }
+    .dashboard-button{
+        background-color: #060000;
+        color: white;
+        
+    }
+    .dashboard-button:hover{
+        background-color: #060000b5;
+         color: white;
+
+    }
+</style>
+
+<div class="container mt-4">
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <h1>Track Your DSA Journey</h1>
+        <p>Master Data Structures & Algorithms with powerful visual tracking and structured daily goals.</p>
+        <div class="hero-buttons mt-4">
+            {% if user.is_authenticated %}
+                <a href="{% url 'dashboard' %}" class="btn  btn-lg dashboard-button"
+                >Go to Dashboard</a>
+            {% else %}
+                <a href="{% url 'register' %}" class="btn  btn-lg me-2 dashboard-button">Get Started</a>
+                <a href="{% url 'login' %}" class="btn btn-outline-primary btn-lg ">Login</a>
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="section-heading">What You Get</div>
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="feature-card">
+                <i class="bi bi-list-check text-primary"></i>
+                <h5>Track Problems</h5>
+                <p>Sort and manage your solved problems by topic and difficulty with just a few clicks.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="feature-card">
+                <i class="bi bi-graph-up text-success"></i>
+                <h5>Visual Progress</h5>
+                <p>Monitor your practice with charts and dashboards — see how far you've come!</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="feature-card">
+                <i class="bi bi-calendar-check text-info"></i>
+                <h5>Daily Challenges</h5>
+                <p>Improve consistency with custom-tailored daily tasks and streak tracking.</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

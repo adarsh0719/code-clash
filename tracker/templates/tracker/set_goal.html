@@ -1,0 +1,37 @@
+{% extends "tracker/base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card rounded-4 shadow">
+                <div class="card-header text-white" style="background-color: #000; border-top-left-radius: 1rem; border-top-right-radius: 1rem;">
+                    <h2 class="mb-0">Set Your Goal</h2>
+                </div>
+                <div class="card-body">
+                    <form method="POST">
+                        {% csrf_token %}
+                        <div class="mb-3">
+                            <label class="form-label">I want to solve</label>
+                            <input type="number" name="target" class="form-control rounded-3" min="1" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">problems per</label>
+                            <select name="period" class="form-select rounded-3" required>
+                                <option value="day">Day</option>
+                                <option value="week">Week</option>
+                                <option value="month">Month</option>
+                            </select>
+                        </div>
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn text-white rounded-3" style="background-color: #000;">Set Goal</button>
+                            <a href="{% url 'dashboard' %}" class="btn btn-outline-dark rounded-3">Cancel</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

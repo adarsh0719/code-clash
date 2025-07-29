@@ -1,0 +1,39 @@
+{% extends "tracker/base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1 class="mb-4">Your Achievements</h1>
+    
+    <div class="row">
+        {% for achievement in all_achievements %}
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 {% if achievement.id in achieved_ids %}border-success{% else %}border-light{% endif %}">
+                <div class="card-body text-center">
+                    <div class="mb-3">
+                        {% if achievement.id in achieved_ids %}
+                        <i class="bi bi-{{ achievement.icon }} text-warning" style="font-size: 3rem;"></i>
+                        {% else %}
+                        <i class="bi bi-{{ achievement.icon }} text-secondary" style="font-size: 3rem;"></i>
+                        {% endif %}
+                    </div>
+                    <h5 class="card-title">{{ achievement.name }}</h5>
+                    <p class="card-text">{{ achievement.description }}</p>
+                    {% if achievement.id in achieved_ids %}
+                    <span class="badge bg-success">Unlocked</span>
+                    {% else %}
+                    <span class="badge bg-secondary">Locked</span>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% empty %}
+        <div class="col-12">
+            <div class="alert alert-info">
+                No achievements found. Check back later!
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

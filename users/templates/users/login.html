@@ -1,0 +1,187 @@
+{% extends "tracker/base.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<style>
+    body {
+        background: linear-gradient(to bottom right, #f8f9fa, #e9ecef);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login-container {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        background-color: #ffffff;
+        border: none;
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        overflow: hidden;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+    }
+
+    .card-header {
+        background: linear-gradient(135deg, #343a40 0%, #23272b 100%);
+        color: #ffffff;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        padding: 1rem; /* Reduced */
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .card-header::before {
+        content: "";
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
+        transform: rotate(30deg);
+    }
+
+    .card-header h2 {
+        position: relative;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        margin: 0;
+        font-size: 1.4rem;
+    }
+
+    .card-body {
+        padding: 1rem; /* Reduced */
+    }
+
+    .form-group {
+        margin-bottom: 1rem; /* Reduced */
+    }
+
+    .form-control {
+        border-radius: 8px;
+        padding: 8px 12px; /* Reduced */
+        border: 1px solid #e1e5eb;
+        transition: all 0.3s;
+    }
+
+    .form-control:focus {
+        border-color: #4b6cb7;
+        box-shadow: 0 0 0 3px rgba(75, 108, 183, 0.15);
+    }
+
+    .btn-primary {
+        background: linear-gradient(135deg, #343a40 0%, #23272b 100%);
+        border: none;
+        border-radius: 8px;
+        padding: 10px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        transition: all 0.3s;
+        box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    }
+
+    .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 7px 14px rgba(50, 50, 93, 0.15), 0 3px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn-primary:active {
+        transform: translateY(1px);
+    }
+
+    .register-link {
+        display: block;
+        text-align: center;
+        margin-top: 1rem; /* Reduced */
+        padding-top: 1rem; /* Reduced */
+        border-top: 1px solid #f1f1f1;
+        font-weight: 500;
+        color: #343a40;
+        transition: color 0.2s;
+    }
+
+    .register-link:hover {
+        color: #23272b;
+        text-decoration: none;
+    }
+
+    .password-toggle {
+        position: absolute;
+        right: 16px;
+        top: 38px; /* Adjusted for new input padding */
+        cursor: pointer;
+        color: #6c757d;
+        z-index: 10;
+    }
+</style>
+
+
+<div class="container login-container">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+            <div class="card">
+                <div class="card-header">
+                    <h2><i class="bi bi-lock me-2"></i>Login to Your Account</h2>
+                </div>
+                <div class="card-body">
+                    <form method="POST">
+                        {% csrf_token %}
+                        
+                        <div class="form-group">
+                            <label for="id_username" class="form-label">Username or Email</label>
+                            <input type="text" name="username" autofocus autocapitalize="none" autocomplete="username" 
+                                   class="form-control" required id="id_username" placeholder="Enter your username or email">
+                        </div>
+                        
+                        <div class="form-group position-relative">
+                            <label for="id_password" class="form-label">Password</label>
+                            <input type="password" name="password" autocomplete="current-password" 
+                                   class="form-control" required id="id_password" placeholder="Enter your password">
+                            <i class="bi bi-eye-slash password-toggle" id="passwordToggle"></i>
+                        </div>
+                        
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="rememberMe">
+                            <label class="form-check-label" for="rememberMe">Remember me</label>
+                        </div>
+                        
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn btn-primary btn-block">Login</button>
+                        </div>
+                    </form>
+                    
+                    <a href="{% url 'register' %}" class="register-link">
+                        Don't have an account? <strong>Register here</strong>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Password toggle functionality
+        const passwordToggle = document.getElementById('passwordToggle');
+        const passwordField = document.getElementById('id_password');
+        
+        passwordToggle.addEventListener('click', function() {
+            const type = passwordField.getAttribute('type') === 'password' ? 'text' : 'password';
+            passwordField.setAttribute('type', type);
+            this.classList.toggle('bi-eye');
+            this.classList.toggle('bi-eye-slash');
+        });
+    });
+</script>
+{% endblock %}

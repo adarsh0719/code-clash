@@ -1,0 +1,141 @@
+{% extends "tracker/base.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<style>
+    body {
+        background: linear-gradient(to bottom right, #f8f9fa, #e9ecef);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login-container {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        background-color: #ffffff;
+        border: none;
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        overflow: hidden;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+    }
+
+    .card-header {
+        background: linear-gradient(135deg, #343a40 0%, #23272b 100%);
+        color: #ffffff;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        padding: 1rem;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .card-header::before {
+        content: "";
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
+        transform: rotate(30deg);
+    }
+
+    .card-header h2 {
+        position: relative;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        margin: 0;
+        font-size: 1.4rem;
+    }
+
+    .card-body {
+        padding: 1rem;
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+    }
+
+    .form-control {
+        border-radius: 8px;
+        padding: 8px 12px;
+        border: 1px solid #e1e5eb;
+        transition: all 0.3s;
+    }
+
+    .form-control:focus {
+        border-color: #4b6cb7;
+        box-shadow: 0 0 0 3px rgba(75, 108, 183, 0.15);
+    }
+
+    .btn-primary {
+        background: linear-gradient(135deg, #343a40 0%, #23272b 100%);
+        border: none;
+        border-radius: 8px;
+        padding: 10px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        transition: all 0.3s;
+        box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    }
+
+    .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 7px 14px rgba(50, 50, 93, 0.15), 0 3px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn-primary:active {
+        transform: translateY(1px);
+    }
+
+    .register-link {
+        display: block;
+        text-align: center;
+        margin-top: 1rem;
+        padding-top: 1rem;
+        border-top: 1px solid #f1f1f1;
+        font-weight: 500;
+        color: #343a40;
+        transition: color 0.2s;
+    }
+
+    .register-link:hover {
+        color: #23272b;
+        text-decoration: none;
+    }
+</style>
+
+<div class="container login-container">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Create Your Account</h2>
+                </div>
+                <div class="card-body">
+                    <form method="POST">
+                        {% csrf_token %}
+                        {{ form|crispy }}
+                        <div class="d-grid gap-2 mt-3">
+                            <button type="submit" class="btn btn-primary w-100">Register</button>
+                        </div>
+                    </form>
+                    <a href="{% url 'login' %}" class="register-link">Already have an account? Login here</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

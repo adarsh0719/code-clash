@@ -1,0 +1,513 @@
+title,url,difficulty,platform,topics,is_premium,frequency
+Two Sum,https://leetcode.com/problems/two-sum/ ,Easy,LeetCode,"Array, Hash Table",False,0.95
+Reverse Linked List,https://leetcode.com/problems/reverse-linked-list/ ,Easy,LeetCode,"Linked List",False,0.85
+Merge Two Sorted Lists,https://leetcode.com/problems/merge-two-sorted-lists/ ,Easy,LeetCode,"Linked List",False,0.80
+Valid Parentheses,https://leetcode.com/problems/valid-parentheses/ ,Easy,LeetCode,"Stack",False,0.75
+Best Time to Buy and Sell Stock,https://leetcode.com/problems/best-time-to-buy-and-sell-stock/ ,Easy,LeetCode,"Array, Dynamic Programming",False,0.90
+Single Number,https://leetcode.com/problems/single-number/ ,Easy,LeetCode,"Bit Manipulation",False,0.70
+Climbing Stairs,https://leetcode.com/problems/climbing-stairs/ ,Easy,LeetCode,"Dynamic Programming",False,0.85
+Maximum Subarray,https://leetcode.com/problems/maximum-subarray/ ,Easy,LeetCode,"Array, Dynamic Programming",False,0.90
+Binary Search,https://leetcode.com/problems/binary-search/ ,Easy,LeetCode,"Binary Search",False,0.75
+Add Two Numbers,https://leetcode.com/problems/add-two-numbers/ ,Medium,LeetCode,"Linked List, Math",False,0.85
+Longest Substring Without Repeating Characters,https://leetcode.com/problems/longest-substring-without-repeating-characters/ ,Medium,LeetCode,"Sliding Window, Hash Map",False,0.92
+Container With Most Water,https://leetcode.com/problems/container-with-most-water/ ,Medium,LeetCode,"Two Pointers",False,0.80
+3Sum,https://leetcode.com/problems/3sum/ ,Medium,LeetCode,"Two Pointers, Sorting",False,0.90
+Remove Nth Node From End of List,https://leetcode.com/problems/remove-nth-node-from-end-of-list/ ,Medium,LeetCode,"Linked List, Two Pointers",False,0.75
+Valid Palindrome,https://leetcode.com/problems/valid-palindrome/ ,Easy,LeetCode,"Two Pointers",False,0.65
+Implement strStr(),https://leetcode.com/problems/implement-strstr/ ,Easy,LeetCode,"String Matching",False,0.60
+Palindrome Linked List,https://leetcode.com/problems/palindrome-linked-list/ ,Easy,LeetCode,"Linked List, Two Pointers",False,0.75
+Intersection of Two Linked Lists,https://leetcode.com/problems/intersection-of-two-linked-lists/ ,Easy,LeetCode,"Linked List",False,0.70
+Delete Node in a Linked List,https://leetcode.com/problems/delete-node-in-a-linked-list/ ,Easy,LeetCode,"Linked List",False,0.65
+Invert Binary Tree,https://leetcode.com/problems/invert-binary-tree/ ,Easy,LeetCode,"Tree",False,0.75
+Maximum Depth of Binary Tree,https://leetcode.com/problems/maximum-depth-of-binary-tree/ ,Easy,LeetCode,"Tree",False,0.70
+Symmetric Tree,https://leetcode.com/problems/symmetric-tree/ ,Easy,LeetCode,"Tree",False,0.75
+Path Sum,https://leetcode.com/problems/path-sum/ ,Easy,LeetCode,"Tree",False,0.65
+Same Tree,https://leetcode.com/problems/same-tree/ ,Easy,LeetCode,"Tree",False,0.65
+Balanced Binary Tree,https://leetcode.com/problems/balanced-binary-tree/ ,Easy,LeetCode,"Tree",False,0.65
+Minimum Depth of Binary Tree,https://leetcode.com/problems/minimum-depth-of-binary-tree/ ,Easy,LeetCode,"Tree",False,0.60
+Binary Tree Level Order Traversal,https://leetcode.com/problems/binary-tree-level-order-traversal/ ,Medium,LeetCode,"Tree, BFS",False,0.80
+Binary Tree Inorder Traversal,https://leetcode.com/problems/binary-tree-inorder-traversal/ ,Medium,LeetCode,"Tree",False,0.70
+Kth Smallest Element in a BST,https://leetcode.com/problems/kth-smallest-element-in-a-bst/ ,Medium,LeetCode,"Tree, DFS",False,0.75
+Validate Binary Search Tree,https://leetcode.com/problems/validate-binary-search-tree/ ,Medium,LeetCode,"Tree, DFS",False,0.80
+Lowest Common Ancestor of a Binary Search Tree,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/ ,Easy,LeetCode,"Tree",False,0.70
+Search in a Binary Search Tree,https://leetcode.com/problems/search-in-a-binary-search-tree/ ,Easy,LeetCode,"Tree",False,0.65
+Convert Sorted Array to Binary Search Tree,https://leetcode.com/problems/convert-sorted-array-to-balanced-binary-search-tree/ ,Easy,LeetCode,"Tree",False,0.60
+Merge Two Binary Trees,https://leetcode.com/problems/merge-two-binary-trees/ ,Easy,LeetCode,"Tree",False,0.60
+Diameter of Binary Tree,https://leetcode.com/problems/diameter-of-binary-tree/ ,Easy,LeetCode,"Tree",False,0.70
+Subtree of Another Tree,https://leetcode.com/problems/subtree-of-another-tree/ ,Easy,LeetCode,"Tree",False,0.70
+Binary Tree Zigzag Level Order Traversal,https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/ ,Medium,LeetCode,"Tree, BFS",False,0.65
+Binary Tree Maximum Path Sum,https://leetcode.com/problems/binary-tree-maximum-path-sum/ ,Hard,LeetCode,"Tree, DFS",False,0.75
+Populating Next Right Pointers in Each Node,https://leetcode.com/problems/populating-next-right-pointers-in-each-node/ ,Medium,LeetCode,"Tree",False,0.65
+Find Minimum in Rotated Sorted Array,https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/ ,Medium,LeetCode,"Binary Search",False,0.70
+Search in Rotated Sorted Array,https://leetcode.com/problems/search-in-rotated-sorted-array/ ,Medium,LeetCode,"Binary Search",False,0.80
+Product of Array Except Self,https://leetcode.com/problems/product-of-array-except-self/ ,Medium,LeetCode,"Array",False,0.85
+Top K Frequent Elements,https://leetcode.com/problems/top-k-frequent-elements/ ,Medium,LeetCode,"Heap",False,0.75
+K Closest Points to Origin,https://leetcode.com/problems/k-closest-points-to-origin/ ,Medium,LeetCode,"Heap",False,0.70
+Sort an Array,https://leetcode.com/problems/sort-an-array/ ,Medium,LeetCode,"Sorting",False,0.60
+Merge Intervals,https://leetcode.com/problems/merge-intervals/ ,Medium,LeetCode,"Array",False,0.85
+Insert Interval,https://leetcode.com/problems/insert-interval/ ,Hard,LeetCode,"Array",False,0.70
+Non-overlapping Intervals,https://leetcode.com/problems/non-overlapping-intervals/ ,Medium,LeetCode,"Greedy",False,0.60
+Meeting Rooms II,https://leetcode.com/problems/meeting-rooms-ii/ ,Medium,LeetCode,"Heap",False,0.70
+Rotate Image,https://leetcode.com/problems/rotate-image/ ,Medium,LeetCode,"Matrix",False,0.65
+Set Matrix Zeroes,https://leetcode.com/problems/set-matrix-zeroes/ ,Medium,LeetCode,"Matrix",False,0.65
+Spiral Matrix,https://leetcode.com/problems/spiral-matrix/ ,Medium,LeetCode,"Matrix",False,0.70
+Word Break,https://leetcode.com/problems/word-break/ ,Medium,LeetCode,"Dynamic Programming",False,0.80
+Coin Change,https://leetcode.com/problems/coin-change/ ,Medium,LeetCode,"Dynamic Programming",False,0.75
+Longest Increasing Subsequence,https://leetcode.com/problems/longest-increasing-subsequence/ ,Medium,LeetCode,"Dynamic Programming",False,0.80
+Unique Paths,https://leetcode.com/problems/unique-paths/ ,Medium,LeetCode,"Dynamic Programming",False,0.70
+Decode Ways,https://leetcode.com/problems/decode-ways/ ,Medium,LeetCode,"Dynamic Programming",False,0.75
+House Robber,https://leetcode.com/problems/house-robber/ ,Easy,LeetCode,"Dynamic Programming",False,0.75
+Jump Game,https://leetcode.com/problems/jump-game/ ,Medium,LeetCode,"Greedy",False,0.80
+Combination Sum,https://leetcode.com/problems/combination-sum/ ,Medium,LeetCode,"Backtracking",False,0.75
+Permutations,https://leetcode.com/problems/permutations/ ,Medium,LeetCode,"Backtracking",False,0.70
+Subsets,https://leetcode.com/problems/subsets/ ,Medium,LeetCode,"Backtracking",False,0.75
+Letter Combinations of a Phone Number,https://leetcode.com/problems/letter-combinations-of-a-phone-number/ ,Medium,LeetCode,"Backtracking",False,0.70
+Generate Parentheses,https://leetcode.com/problems/generate-parentheses/ ,Medium,LeetCode,"Backtracking",False,0.75
+N-Queens,https://leetcode.com/problems/n-queens/ ,Hard,LeetCode,"Backtracking",False,0.65
+Word Ladder,https://leetcode.com/problems/word-ladder/ ,Hard,LeetCode,"BFS",False,0.80
+Number of Islands,https://leetcode.com/problems/number-of-islands/ ,Medium,LeetCode,"DFS, BFS",False,0.85
+Course Schedule,https://leetcode.com/problems/course-schedule/ ,Medium,LeetCode,"Graph",False,0.80
+Clone Graph,https://leetcode.com/problems/clone-graph/ ,Medium,LeetCode,"Graph",False,0.70
+Pacific Atlantic Water Flow,https://leetcode.com/problems/pacific-atlantic-water-flow/ ,Medium,LeetCode,"DFS, BFS",False,0.65
+Cheapest Flights Within K Stops,https://leetcode.com/problems/cheapest-flights-within-k-stops/ ,Medium,LeetCode,"Graph",False,0.70
+Find the Duplicate Number,https://leetcode.com/problems/find-the-duplicate-number/ ,Medium,LeetCode,"Two Pointers",False,0.75
+First Missing Positive,https://leetcode.com/problems/first-missing-positive/ ,Hard,LeetCode,"Array",False,0.70
+Trapping Rain Water,https://leetcode.com/problems/trapping-rain-water/ ,Hard,LeetCode,"Two Pointers",False,0.80
+Largest Rectangle in Histogram,https://leetcode.com/problems/largest-rectangle-in-histogram/ ,Hard,LeetCode,"Stack",False,0.70
+Sliding Window Maximum,https://leetcode.com/problems/sliding-window-maximum/ ,Hard,LeetCode,"Deque",False,0.75
+Basic Calculator II,https://leetcode.com/problems/basic-calculator-ii/ ,Medium,LeetCode,"Stack",False,0.60
+Evaluate Reverse Polish Notation,https://leetcode.com/problems/evaluate-reverse-polish-notation/ ,Medium,LeetCode,"Stack",False,0.65
+Design Circular Queue,https://leetcode.com/problems/design-circular-queue/ ,Medium,LeetCode,"Queue",False,0.55
+LRU Cache,https://leetcode.com/problems/lru-cache/ ,Medium,LeetCode,"Design",False,0.80
+Min Stack,https://leetcode.com/problems/min-stack/ ,Easy,LeetCode,"Stack",False,0.70
+Implement Trie (Prefix Tree),https://leetcode.com/problems/implement-trie-prefix-tree/ ,Medium,LeetCode,"Trie",False,0.75
+Word Search II,https://leetcode.com/problems/word-search-ii/ ,Hard,LeetCode,"Trie",False,0.70
+Time Based Key-Value Store,https://leetcode.com/problems/time-based-key-value-store/ ,Medium,LeetCode,"Hash Map",False,0.65
+Find Median from Data Stream,https://leetcode.com/problems/find-median-from-data-stream/ ,Hard,LeetCode,"Heap",False,0.70
+Alien Dictionary,https://leetcode.com/problems/alien-dictionary/ ,Hard,LeetCode,"Graph",False,0.65
+Reconstruct Itinerary,https://leetcode.com/problems/reconstruct-itinerary/ ,Hard,LeetCode,"Graph",False,0.60
+Word Break II,https://leetcode.com/problems/word-break-ii/ ,Hard,LeetCode,"Backtracking",False,0.65
+Regular Expression Matching,https://leetcode.com/problems/regular-expression-matching/ ,Hard,LeetCode,"Dynamic Programming",False,0.75
+Wildcard Matching,https://leetcode.com/problems/wildcard-matching/ ,Hard,LeetCode,"Dynamic Programming",False,0.70
+Distinct Subsequences,https://leetcode.com/problems/distinct-subsequences/ ,Hard,LeetCode,"Dynamic Programming",False,0.60
+Reverse Linked List II,https://leetcode.com/problems/reverse-linked-list-ii/ ,Medium,LeetCode,"Linked List",False,0.75
+Remove Duplicates from Sorted List II,https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/ ,Medium,LeetCode,"Linked List",False,0.65
+Partition List,https://leetcode.com/problems/partition-list/ ,Medium,LeetCode,"Linked List",False,0.60
+Rotate List,https://leetcode.com/problems/rotate-list/ ,Medium,LeetCode,"Linked List",False,0.60
+Copy List with Random Pointer,https://leetcode.com/problems/copy-list-with-random-pointer/ ,Medium,LeetCode,"Linked List",False,0.80
+LRU Cache,https://leetcode.com/problems/lru-cache/ ,Medium,LeetCode,"Design, Hash Map",False,0.80
+LFU Cache,https://leetcode.com/problems/lfu-cache/ ,Hard,LeetCode,"Design, Hash Map",True,0.65
+Merge k Sorted Lists,https://leetcode.com/problems/merge-k-sorted-lists/ ,Hard,LeetCode,"Heap, Linked List",False,0.85
+Reorder List,https://leetcode.com/problems/reorder-list/ ,Medium,LeetCode,"Linked List",False,0.65
+Odd Even Linked List,https://leetcode.com/problems/odd-even-linked-list/ ,Medium,LeetCode,"Linked List",False,0.60
+Swap Nodes in Pairs,https://leetcode.com/problems/swap-nodes-in-pairs/ ,Medium,LeetCode,"Linked List",False,0.55
+Remove Linked List Elements,https://leetcode.com/problems/remove-linked-list-elements/ ,Easy,LeetCode,"Linked List",False,0.50
+Palindrome Pairs,https://leetcode.com/problems/palindrome-pairs/ ,Hard,LeetCode,"Trie, Hashing",False,0.60
+Word Pattern,https://leetcode.com/problems/word-pattern/ ,Easy,LeetCode,"Hash Map",False,0.55
+Isomorphic Strings,https://leetcode.com/problems/isomorphic-strings/ ,Easy,LeetCode,"Hash Map",False,0.65
+Group Anagrams,https://leetcode.com/problems/group-anagrams/ ,Medium,LeetCode,"Hash Map",False,0.85
+Longest Palindromic Substring,https://leetcode.com/problems/longest-palindromic-substring/ ,Medium,LeetCode,"String, Dynamic Programming",False,0.80
+Zigzag Conversion,https://leetcode.com/problems/zigzag-conversion/ ,Medium,LeetCode,"String",False,0.50
+Multiply Strings,https://leetcode.com/problems/multiply-strings/ ,Medium,LeetCode,"Math, String",False,0.55
+Integer to Roman,https://leetcode.com/problems/integer-to-roman/ ,Medium,LeetCode,"Math",False,0.50
+Roman to Integer,https://leetcode.com/problems/roman-to-integer/ ,Easy,LeetCode,"Math",False,0.65
+Length of Last Word,https://leetcode.com/problems/length-of-last-word/ ,Easy,LeetCode,"String",False,0.45
+Valid Sudoku,https://leetcode.com/problems/valid-sudoku/ ,Medium,LeetCode,"Array",False,0.60
+Sudoku Solver,https://leetcode.com/problems/sudoku-solver/ ,Hard,LeetCode,"Backtracking",False,0.65
+Count and Say,https://leetcode.com/problems/count-and-say/ ,Easy,LeetCode,"String",False,0.40
+Implement Trie (Prefix Tree),https://leetcode.com/problems/implement-trie-prefix-tree/ ,Medium,LeetCode,"Trie",False,0.75
+Word Search,https://leetcode.com/problems/word-search/ ,Medium,LeetCode,"Backtracking",False,0.75
+Word Break II,https://leetcode.com/problems/word-break-ii/ ,Hard,LeetCode,"Backtracking",False,0.65
+Letter Case Permutation,https://leetcode.com/problems/letter-case-permutation/ ,Medium,LeetCode,"Backtracking",False,0.60
+Subsets II,https://leetcode.com/problems/subsets-ii/ ,Medium,LeetCode,"Backtracking",False,0.70
+Combinations,https://leetcode.com/problems/combinations/ ,Medium,LeetCode,"Backtracking",False,0.65
+Combination Sum II,https://leetcode.com/problems/combination-sum-ii/ ,Medium,LeetCode,"Backtracking",False,0.65
+Permutations II,https://leetcode.com/problems/permutations-ii/ ,Medium,LeetCode,"Backtracking",False,0.65
+N-Queens II,https://leetcode.com/problems/n-queens-ii/ ,Hard,LeetCode,"Backtracking",False,0.60
+Gray Code,https://leetcode.com/problems/gray-code/ ,Medium,LeetCode,"Bit Manipulation",False,0.55
+Generate Parentheses,https://leetcode.com/problems/generate-parentheses/ ,Medium,LeetCode,"Backtracking",False,0.75
+Restore IP Addresses,https://leetcode.com/problems/restore-ip-addresses/ ,Medium,LeetCode,"Backtracking",False,0.60
+Sudoku Solver,https://leetcode.com/problems/sudoku-solver/ ,Hard,LeetCode,"Backtracking",False,0.65
+Find All Anagrams in a String,https://leetcode.com/problems/find-all-anagrams-in-a-string/ ,Medium,LeetCode,"Sliding Window",False,0.75
+Minimum Window Substring,https://leetcode.com/problems/minimum-window-substring/ ,Hard,LeetCode,"Sliding Window",False,0.85
+Longest Repeating Character Replacement,https://leetcode.com/problems/longest-repeating-character-replacement/ ,Medium,LeetCode,"Sliding Window",False,0.70
+Fruit Into Baskets,https://leetcode.com/problems/fruit-into-baskets/ ,Medium,LeetCode,"Sliding Window",False,0.65
+Sliding Window Maximum,https://leetcode.com/problems/sliding-window-maximum/ ,Hard,LeetCode,"Deque",False,0.75
+Longest Valid Parentheses,https://leetcode.com/problems/longest-valid-parentheses/ ,Hard,LeetCode,"Dynamic Programming",False,0.70
+Distinct Subsequences,https://leetcode.com/problems/distinct-subsequences/ ,Hard,LeetCode,"Dynamic Programming",False,0.60
+Edit Distance,https://leetcode.com/problems/edit-distance/ ,Hard,LeetCode,"Dynamic Programming",False,0.80
+Interleaving String,https://leetcode.com/problems/interleaving-string/ ,Hard,LeetCode,"Dynamic Programming",False,0.65
+Unique Paths II,https://leetcode.com/problems/unique-paths-ii/ ,Medium,LeetCode,"Dynamic Programming",False,0.65
+Minimum Path Sum,https://leetcode.com/problems/minimum-path-sum/ ,Medium,LeetCode,"Dynamic Programming",False,0.70
+Climbing Stairs II,https://leetcode.com/problems/climbing-stairs-ii/ ,Easy,LeetCode,"Dynamic Programming",False,0.60
+House Robber II,https://leetcode.com/problems/house-robber-ii/ ,Medium,LeetCode,"Dynamic Programming",False,0.65
+Maximum Product Subarray,https://leetcode.com/problems/maximum-product-subarray/ ,Medium,LeetCode,"Dynamic Programming",False,0.70
+Best Time to Buy and Sell Stock II,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/ ,Easy,LeetCode,"Greedy",False,0.75
+Best Time to Buy and Sell Stock III,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/ ,Hard,LeetCode,"Dynamic Programming",False,0.70
+Best Time to Buy and Sell Stock IV,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/ ,Hard,LeetCode,"Dynamic Programming",False,0.60
+Best Time to Buy and Sell Stock with Cooldown,https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/ ,Medium,LeetCode,"Dynamic Programming",False,0.65
+Coin Change 2,https://leetcode.com/problems/coin-change-2/ ,Medium,LeetCode,"Dynamic Programming",False,0.70
+Target Sum,https://leetcode.com/problems/target-sum/ ,Medium,LeetCode,"Dynamic Programming",False,0.65
+Partition Equal Subset Sum,https://leetcode.com/problems/partition-equal-subset-sum/ ,Medium,LeetCode,"Dynamic Programming",False,0.70
+Longest Increasing Subsequence II,https://leetcode.com/problems/longest-increasing-subsequence-ii/ ,Hard,LeetCode,"Dynamic Programming",False,0.60
+Decode Ways II,https://leetcode.com/problems/decode-ways-ii/ ,Hard,LeetCode,"Dynamic Programming",False,0.60
+Wildcard Matching,https://leetcode.com/problems/wildcard-matching/ ,Hard,LeetCode,"Dynamic Programming",False,0.70
+Regular Expression Matching,https://leetcode.com/problems/regular-expression-matching/ ,Hard,LeetCode,"Dynamic Programming",False,0.75
+Russian Doll Envelopes,https://leetcode.com/problems/russian-doll-envelopes/ ,Hard,LeetCode,"Dynamic Programming",False,0.65
+Ones and Zeroes,https://leetcode.com/problems/ones-and-zeroes/ ,Medium,LeetCode,"Dynamic Programming",False,0.55
+Maximum Profit in Job Scheduling,https://leetcode.com/problems/maximum-profit-in-job-scheduling/ ,Hard,LeetCode,"Dynamic Programming",False,0.65
+Super Egg Drop,https://leetcode.com/problems/super-egg-drop/ ,Hard,LeetCode,"Dynamic Programming",False,0.60
+Maximum Length of a Concatenated String with Unique Characters,https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/ ,Medium,LeetCode,"Backtracking",False,0.65
+Partition to K Equal Sum Subsets,https://leetcode.com/problems/partition-to-k-equal-sum-subsets/ ,Medium,LeetCode,"Backtracking",False,0.60
+Palindrome Permutation,https://leetcode.com/problems/palindrome-permutation/ ,Easy,LeetCode,"Hash Map",False,0.50
+Next Closest Time,https://leetcode.com/problems/next-closest-time/ ,Medium,LeetCode,"Backtracking",False,0.55
+Expression Add Operators,https://leetcode.com/problems/expression-add-operators/ ,Hard,LeetCode,"Backtracking",False,0.60
+Word Squares,https://leetcode.com/problems/word-squares/ ,Hard,LeetCode,"Backtracking",False,0.55
+Remove Invalid Parentheses,https://leetcode.com/problems/remove-invalid-parentheses/ ,Hard,LeetCode,"BFS, Backtracking",False,0.70
+N-Ary Tree Preorder Traversal,https://leetcode.com/problems/n-ary-tree-preorder-traversal/ ,Easy,LeetCode,"Tree",False,0.50
+N-Ary Tree Postorder Traversal,https://leetcode.com/problems/n-ary-tree-postorder-traversal/ ,Easy,LeetCode,"Tree",False,0.50
+Flatten a Multilevel Doubly Linked List,https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/ ,Medium,LeetCode,"Linked List, DFS",False,0.65
+Find the Closest Palindrome,https://leetcode.com/problems/find-the-closest-palindrome/ ,Hard,LeetCode,"Math",False,0.50
+Minimum Genetic Mutation,https://leetcode.com/problems/minimum-genetic-mutation/ ,Medium,LeetCode,"BFS",False,0.60
+Evaluate Division,https://leetcode.com/problems/evaluate-division/ ,Medium,LeetCode,"Graph",False,0.65
+All Paths From Source to Target,https://leetcode.com/problems/all-paths-from-source-to-target/ ,Medium,LeetCode,"Graph",False,0.60
+Redundant Connection,https://leetcode.com/problems/redundant-connection/ ,Medium,LeetCode,"Union-Find",False,0.70
+Most Stones Removed with Same Row or Column,https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/ ,Medium,LeetCode,"Union-Find",False,0.60
+Smallest String With Swaps,https://leetcode.com/problems/smallest-string-with-swaps/ ,Medium,LeetCode,"Union-Find",False,0.65
+Number of Provinces,https://leetcode.com/problems/number-of-provinces/ ,Medium,LeetCode,"DFS, Union-Find",False,0.70
+Accounts Merge,https://leetcode.com/problems/accounts-merge/ ,Medium,LeetCode,"Union-Find",False,0.70
+Is Graph Bipartite?,https://leetcode.com/problems/is-graph-bipartite/ ,Medium,LeetCode,"DFS, BFS",False,0.65
+Course Schedule II,https://leetcode.com/problems/course-schedule-ii/ ,Medium,LeetCode,"Topological Sort",False,0.75
+Alien Dictionary,https://leetcode.com/problems/alien-dictionary/ ,Hard,LeetCode,"Graph",False,0.65
+Reconstruct Itinerary,https://leetcode.com/problems/reconstruct-itinerary/ ,Hard,LeetCode,"Graph",False,0.60
+Cheapest Flights Within K Stops,https://leetcode.com/problems/cheapest-flights-within-k-stops/ ,Medium,LeetCode,"Graph",False,0.70
+Kth Largest Element in a Stream,https://leetcode.com/problems/kth-largest-element-in-a-stream/ ,Easy,LeetCode,"Heap",False,0.65
+Last Stone Weight,https://leetcode.com/problems/last-stone-weight/ ,Easy,LeetCode,"Heap",False,0.60
+Merge k Sorted Lists,https://leetcode.com/problems/merge-k-sorted-lists/ ,Hard,LeetCode,"Heap",False,0.85
+Find Median from Data Stream,https://leetcode.com/problems/find-median-from-data-stream/ ,Hard,LeetCode,"Heap",False,0.70
+Find the Most Competitive Subsequence,https://leetcode.com/problems/find-the-most-competitive-subsequence/ ,Medium,LeetCode,"Stack",False,0.60
+Largest Rectangle in Histogram,https://leetcode.com/problems/largest-rectangle-in-histogram/ ,Hard,LeetCode,"Stack",False,0.70
+Trapping Rain Water,https://leetcode.com/problems/trapping-rain-water/ ,Hard,LeetCode,"Two Pointers",False,0.80
+Daily Temperatures,https://leetcode.com/problems/daily-temperatures/ ,Medium,LeetCode,"Stack",False,0.75
+Online Stock Span,https://leetcode.com/problems/online-stock-span/ ,Medium,LeetCode,"Stack",False,0.60
+Sum of Subarray Minimums,https://leetcode.com/problems/sum-of-subarray-minimums/ ,Medium,LeetCode,"Stack",False,0.65
+Car Fleet,https://leetcode.com/problems/car-fleet/ ,Medium,LeetCode,"Stack",False,0.60
+Design Circular Queue,https://leetcode.com/problems/design-circular-queue/ ,Medium,LeetCode,"Queue",False,0.55
+Time Based Key-Value Store,https://leetcode.com/problems/time-based-key-value-store/ ,Medium,LeetCode,"Hash Map",False,0.65
+Implement Rand10() Using Rand7(),https://leetcode.com/problems/implement-rand10-using-rand7/ ,Medium,LeetCode,"Probability",False,0.60
+Insert Delete GetRandom O(1),https://leetcode.com/problems/insert-delete-getrandom-o1/ ,Medium,LeetCode,"Hash Map",False,0.80
+Shuffle an Array,https://leetcode.com/problems/shuffle-an-array/ ,Medium,LeetCode,"Array",False,0.50
+Binary Tree Cameras,https://leetcode.com/problems/binary-tree-cameras/ ,Hard,LeetCode,"Tree, Greedy",False,0.60
+Distribute Coins in Binary Tree,https://leetcode.com/problems/distribute-coins-in-binary-tree/ ,Medium,LeetCode,"Tree",False,0.65
+Sum Root to Leaf Numbers,https://leetcode.com/problems/sum-root-to-leaf-numbers/ ,Medium,LeetCode,"Tree",False,0.60
+Binary Tree Zigzag Level Order Traversal,https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/ ,Medium,LeetCode,"Tree, BFS",False,0.65
+Populating Next Right Pointers in Each Node II,https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/ ,Medium,LeetCode,"Tree",False,0.65
+Binary Tree Right Side View,https://leetcode.com/problems/binary-tree-right-side-view/ ,Medium,LeetCode,"Tree, BFS",False,0.70
+Construct Binary Tree from Preorder and Inorder Traversal,https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/ ,Medium,LeetCode,"Tree",False,0.75
+Construct Binary Tree from Inorder and Postorder Traversal,https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/ ,Medium,LeetCode,"Tree",False,0.70
+Serialize and Deserialize Binary Tree,https://leetcode.com/problems/serialize-and-deserialize-binary-tree/ ,Hard,LeetCode,"Tree",False,0.80
+Flip Binary Tree To Match Preorder Traversal,https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/ ,Medium,LeetCode,"Tree",False,0.60
+Convert BST to Greater Tree,https://leetcode.com/problems/convert-bst-to-greater-tree/ ,Medium,LeetCode,"Tree",False,0.65
+Find Mode in Binary Search Tree,https://leetcode.com/problems/find-mode-in-binary-search-tree/ ,Easy,LeetCode,"Tree",False,0.60
+Binary Tree Postorder Traversal Iterative,https://leetcode.com/problems/binary-tree-postorder-traversal/ ,Hard,LeetCode,"Tree, Stack",False,0.65
+Binary Tree Preorder Traversal Iterative,https://leetcode.com/problems/binary-tree-preorder-traversal/ ,Medium,LeetCode,"Tree, Stack",False,0.60
+Flatten Binary Tree to Linked List,https://leetcode.com/problems/flatten-binary-tree-to-linked-list/ ,Medium,LeetCode,"Tree",False,0.70
+Sum of Left Leaves,https://leetcode.com/problems/sum-of-left-leaves/ ,Easy,LeetCode,"Tree",False,0.50
+Path Sum II,https://leetcode.com/problems/path-sum-ii/ ,Medium,LeetCode,"Tree, DFS",False,0.70
+Binary Tree Paths,https://leetcode.com/problems/binary-tree-paths/ ,Easy,LeetCode,"Tree",False,0.60
+Find Leaves of Binary Tree,https://leetcode.com/problems/find-leaves-of-binary-tree/ ,Medium,LeetCode,"Tree",False,0.60
+Lowest Common Ancestor of a Binary Tree,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/ ,Medium,LeetCode,"Tree",False,0.80
+Delete Node in a BST,https://leetcode.com/problems/delete-node-in-a-bst/ ,Medium,LeetCode,"Tree",False,0.70
+Inorder Successor in BST,https://leetcode.com/problems/inorder-successor-in-bst/ ,Medium,LeetCode,"Tree",False,0.65
+Kth Smallest Element in a Sorted Matrix,https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/ ,Medium,LeetCode,"Heap, Binary Search",False,0.70
+Search a 2D Matrix II,https://leetcode.com/problems/search-a-2d-matrix-ii/ ,Medium,LeetCode,"Matrix",False,0.75
+Spiral Matrix II,https://leetcode.com/problems/spiral-matrix-ii/ ,Medium,LeetCode,"Matrix",False,0.60
+Set Matrix Zeroes II,https://leetcode.com/problems/set-matrix-zeroes-ii/ ,Medium,LeetCode,"Matrix",False,0.60
+Game of Life,https://leetcode.com/problems/game-of-life/ ,Medium,LeetCode,"Matrix",False,0.70
+Pascal's Triangle,https://leetcode.com/problems/pascals-triangle/ ,Easy,LeetCode,"Array",False,0.55
+Pascal's Triangle II,https://leetcode.com/problems/pascals-triangle-ii/ ,Easy,LeetCode,"Array",False,0.50
+Rotate Image Clockwise,https://leetcode.com/problems/rotate-image/ ,Medium,LeetCode,"Matrix",False,0.65
+Valid Mountain Array,https://leetcode.com/problems/valid-mountain-array/ ,Easy,LeetCode,"Array",False,0.50
+Find All Numbers Disappeared in an Array,https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/ ,Easy,LeetCode,"Array",False,0.70
+Third Maximum Number,https://leetcode.com/problems/third-maximum-number/ ,Easy,LeetCode,"Array",False,0.60
+Maximum Swap,https://leetcode.com/problems/maximum-swap/ ,Medium,LeetCode,"Array",False,0.65
+Next Greater Element I,https://leetcode.com/problems/next-greater-element-i/ ,Easy,LeetCode,"Stack",False,0.65
+Next Greater Element II,https://leetcode.com/problems/next-greater-element-ii/ ,Medium,LeetCode,"Stack",False,0.70
+Remove Duplicate Letters,https://leetcode.com/problems/remove-duplicate-letters/ ,Medium,LeetCode,"Stack",False,0.65
+Remove All Adjacent Duplicates In String,https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/ ,Easy,LeetCode,"Stack",False,0.60
+Score of Parentheses,https://leetcode.com/problems/score-of-parentheses/ ,Medium,LeetCode,"Stack",False,0.60
+Minimum Add to Make Parentheses Valid,https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/ ,Medium,LeetCode,"Stack",False,0.60
+Basic Calculator,https://leetcode.com/problems/basic-calculator/ ,Hard,LeetCode,"Stack",False,0.70
+Implement Queue using Stacks,https://leetcode.com/problems/implement-queue-using-stacks/ ,Easy,LeetCode,"Stack",False,0.60
+Implement Stack using Queues,https://leetcode.com/problems/implement-stack-using-queues/ ,Easy,LeetCode,"Queue",False,0.55
+Design Circular Queue,https://leetcode.com/problems/design-circular-queue/ ,Medium,LeetCode,"Queue",False,0.55
+Moving Average from Data Stream,https://leetcode.com/problems/moving-average-from-data-stream/ ,Easy,LeetCode,"Queue",False,0.50
+Design Hit Counter,https://leetcode.com/problems/design-hit-counter/ ,Medium,LeetCode,"Queue",False,0.60
+Design Twitter,https://leetcode.com/problems/design-twitter/ ,Medium,LeetCode,"Design",False,0.70
+Design Snake Game,https://leetcode.com/problems/design-snake-game/ ,Medium,LeetCode,"Design",False,0.55
+Design Phone Directory,https://leetcode.com/problems/design-phone-directory/ ,Medium,LeetCode,"Design",False,0.50
+Design Excel Sum Formula,https://leetcode.com/problems/design-excel-sum-formula/ ,Hard,LeetCode,"Design",False,0.50
+Design Log Storage System,https://leetcode.com/problems/design-log-storage-system/ ,Medium,LeetCode,"Design",False,0.50
+Design Circular Deque,https://leetcode.com/problems/design-circular-deque/ ,Medium,LeetCode,"Design",False,0.55
+Design Underground System,https://leetcode.com/problems/design-underground-system/ ,Medium,LeetCode,"Design",False,0.70
+Design Tic-Tac-Cheater,https://leetcode.com/problems/design-tic-tac-cheater/ ,Hard,LeetCode,"Design",True,0.40
+Design File Sharing System,https://leetcode.com/problems/design-file-sharing-system/ ,Medium,LeetCode,"Design",False,0.50
+Design Authentication Manager,https://leetcode.com/problems/design-authentication-manager/ ,Medium,LeetCode,"Design",False,0.55
+Design Most Recently Used Queue,https://leetcode.com/problems/design-most-recently-used-queue/ ,Medium,LeetCode,"Design",False,0.50
+Design Bitset,https://leetcode.com/problems/design-bitset/ ,Medium,LeetCode,"Design",False,0.60
+Design Skiplist,https://leetcode.com/problems/design-skiplist/ ,Hard,LeetCode,"Design",True,0.50
+Design HashMap Without Built-in Libraries,https://leetcode.com/problems/design-hashmap/ ,Easy,LeetCode,"Design",False,0.70
+Design HashSet Without Built-in Libraries,https://leetcode.com/problems/design-hashset/ ,Easy,LeetCode,"Design",False,0.65
+Design Parking System,https://leetcode.com/problems/design-parking-system/ ,Easy,LeetCode,"Design",False,0.60
+Design Ordered Stream,https://leetcode.com/problems/design-an-ordered-stream/ ,Easy,LeetCode,"Design",False,0.50
+Design Browser History,https://leetcode.com/problems/design-browser-history/ ,Medium,LeetCode,"Design",False,0.65
+Design Underground System,https://leetcode.com/problems/design-underground-system/ ,Medium,LeetCode,"Design",False,0.70
+Design Parking Lot System,https://leetcode.com/problems/design-parking-lot-system/ ,Hard,LeetCode,"Design",True,0.55
+Design Rate Limiter,https://leetcode.com/problems/design-rate-limiter/ ,Medium,LeetCode,"Design",False,0.60
+Design Memory Allocator,https://leetcode.com/problems/design-memory-allocator/ ,Hard,LeetCode,"Design",True,0.45
+Design Bit Manipulation Class,https://leetcode.com/problems/design-bit-manipulation-class/ ,Medium,LeetCode,"Design",False,0.50
+Design Compressed String Iterator,https://leetcode.com/problems/design-compressed-string-iterator/ ,Easy,LeetCode,"Design",False,0.50
+Design TinyURL,https://leetcode.com/problems/encode-and-decode-tinyurl/ ,Medium,LeetCode,"Design",False,0.75
+Design Log Storage System,https://leetcode.com/problems/design-log-storage-system/ ,Medium,LeetCode,"Design",False,0.50
+Design Snake Game,https://leetcode.com/problems/design-snake-game/ ,Medium,LeetCode,"Design",False,0.55
+Design Circular Deque,https://leetcode.com/problems/design-circular-deque/ ,Medium,LeetCode,"Design",False,0.55
+Design Authentication Manager,https://leetcode.com/problems/design-authentication-manager/ ,Medium,LeetCode,"Design",False,0.55
+Design Most Recently Used Queue,https://leetcode.com/problems/design-most-recently-used-queue/ ,Medium,LeetCode,"Design",False,0.50
+Design Phone Directory,https://leetcode.com/problems/design-phone-directory/ ,Medium,LeetCode,"Design",False,0.50
+Design Circular Queue,https://leetcode.com/problems/design-circular-queue/ ,Medium,LeetCode,"Design",False,0.55
+Design Snake Game,https://leetcode.com/problems/design-snake-game/ ,Medium,LeetCode,"Design",False,0.55
+Design Excel Sum Formula,https://leetcode.com/problems/design-excel-sum-formula/ ,Hard,LeetCode,"Design",False,0.50
+Design Log Storage System,https://leetcode.com/problems/design-log-storage-system/ ,Medium,LeetCode,"Design",False,0.50
+Design Tic-Tac-Cheater,https://leetcode.com/problems/design-tic-tac-cheater/ ,Hard,LeetCode,"Design",True,0.40
+Design File Sharing System,https://leetcode.com/problems/design-file-sharing-system/ ,Medium,LeetCode,"Design",False,0.50
+Design Authentication Manager,https://leetcode.com/problems/design-authentication-manager/ ,Medium,LeetCode,"Design",False,0.55
+Design Most Recently Used Queue,https://leetcode.com/problems/design-most-recently-used-queue/ ,Medium,LeetCode,"Design",False,0.50
+Design Bitset,https://leetcode.com/problems/design-bitset/ ,Medium,LeetCode,"Design",False,0.60
+Design Skiplist,https://leetcode.com/problems/design-skiplist/ ,Hard,LeetCode,"Design",True,0.50
+Design HashMap Without Built-in Libraries,https://leetcode.com/problems/design-hashmap/ ,Easy,LeetCode,"Design",False,0.70
+Design HashSet Without Built-in Libraries,https://leetcode.com/problems/design-hashset/ ,Easy,LeetCode,"Design",False,0.65
+Design Parking System,https://leetcode.com/problems/design-parking-system/ ,Easy,LeetCode,"Design",False,0.60
+Design Ordered Stream,https://leetcode.com/problems/design-an-ordered-stream/ ,Easy,LeetCode,"Design",False,0.50
+Design Browser History,https://leetcode.com/problems/design-browser-history/ ,Medium,LeetCode,"Design",False,0.65
+Design Underground System,https://leetcode.com/problems/design-underground-system/ ,Medium,LeetCode,"Design",False,0.70
+Design Parking Lot System,https://leetcode.com/problems/design-parking-lot-system/ ,Hard,LeetCode,"Design",True,0.55
+Design Rate Limiter,https://leetcode.com/problems/design-rate-limiter/ ,Medium,LeetCode,"Design",False,0.60
+Design Memory Allocator,https://leetcode.com/problems/design-memory-allocator/ ,Hard,LeetCode,"Design",True,0.45
+Design Bit Manipulation Class,https://leetcode.com/problems/design-bit-manipulation-class/ ,Medium,LeetCode,"Design",False,0.50
+Design Compressed String Iterator,https://leetcode.com/problems/design-compressed-string-iterator/ ,Easy,LeetCode,"Design",False,0.50
+Design TinyURL,https://leetcode.com/problems/encode-and-decode-tinyurl/ ,Medium,LeetCode,"Design",False,0.75
+Implement Rand10() Using Rand7(),https://leetcode.com/problems/implement-rand10-using-rand7/ ,Medium,LeetCode,"Probability",False,0.60
+Read N Characters Given Read4,https://leetcode.com/problems/read-n-characters-given-read4/ ,Easy,LeetCode,"File IO",False,0.50
+Read N Characters Given Read4 II,https://leetcode.com/problems/read-n-characters-given-read4-ii/ ,Hard,LeetCode,"File IO",True,0.40
+Intersection of Two Arrays,https://leetcode.com/problems/intersection-of-two-arrays/ ,Easy,LeetCode,"Hash Map",False,0.65
+Intersection of Two Arrays II,https://leetcode.com/problems/intersection-of-two-arrays-ii/ ,Easy,LeetCode,"Hash Map",False,0.70
+Two Sum III - Data structure design,https://leetcode.com/problems/two-sum-iii-data-structure-design/ ,Easy,LeetCode,"Design",False,0.60
+Find the Difference,https://leetcode.com/problems/find-the-difference/ ,Easy,LeetCode,"Bit Manipulation",False,0.60
+Is Subsequence,https://leetcode.com/problems/is-subsequence/ ,Easy,LeetCode,"Two Pointers",False,0.75
+Longest Palindromic Subsequence,https://leetcode.com/problems/longest-palindromic-subsequence/ ,Medium,LeetCode,"Dynamic Programming",False,0.70
+Minimum Moves to Equal Array Elements,https://leetcode.com/problems/minimum-moves-to-equal-array-elements/ ,Easy,LeetCode,"Math",False,0.60
+Find the Duplicate Number,https://leetcode.com/problems/find-the-duplicate-number/ ,Medium,LeetCode,"Two Pointers",False,0.75
+First Missing Positive,https://leetcode.com/problems/first-missing-positive/ ,Hard,LeetCode,"Array",False,0.70
+Single Element in a Sorted Array,https://leetcode.com/problems/single-element-in-a-sorted-array/ ,Medium,LeetCode,"Binary Search",False,0.65
+Peak Index in a Mountain Array,https://leetcode.com/problems/peak-index-in-a-mountain-array/ ,Easy,LeetCode,"Binary Search",False,0.60
+Find Smallest Letter Greater Than Target,https://leetcode.com/problems/find-smallest-letter-greater-than-target/ ,Easy,LeetCode,"Binary Search",False,0.60
+Arranging Coins,https://leetcode.com/problems/arranging-coins/ ,Easy,LeetCode,"Binary Search",False,0.60
+Valid Perfect Square,https://leetcode.com/problems/valid-perfect-square/ ,Easy,LeetCode,"Binary Search",False,0.60
+Guess Number Higher or Lower,https://leetcode.com/problems/guess-number-higher-or-lower/ ,Easy,LeetCode,"Binary Search",False,0.60
+Sqrt(x),https://leetcode.com/problems/sqrtx/ ,Easy,LeetCode,"Binary Search",False,0.70
+Search Insert Position,https://leetcode.com/problems/search-insert-position/ ,Easy,LeetCode,"Binary Search",False,0.75
+Find First and Last Position of Element in Sorted Array,https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/ ,Medium,LeetCode,"Binary Search",False,0.80
+Find Minimum in Rotated Sorted Array II,https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/ ,Hard,LeetCode,"Binary Search",False,0.60
+Search in Rotated Sorted Array II,https://leetcode.com/problems/search-in-rotated-sorted-array-ii/ ,Medium,LeetCode,"Binary Search",False,0.65
+Median of Two Sorted Arrays,https://leetcode.com/problems/median-of-two-sorted-arrays/ ,Hard,LeetCode,"Binary Search",False,0.90
+Kth Smallest Element in a BST,https://leetcode.com/problems/kth-smallest-element-in-a-bst/ ,Medium,LeetCode,"Tree, DFS",False,0.75
+K Closest Points to Origin,https://leetcode.com/problems/k-closest-points-to-origin/ ,Medium,LeetCode,"Heap",False,0.70
+Top K Frequent Words,https://leetcode.com/problems/top-k-frequent-words/ ,Medium,LeetCode,"Heap",False,0.70
+Top K Frequent Elements,https://leetcode.com/problems/top-k-frequent-elements/ ,Medium,LeetCode,"Heap",False,0.75
+Find K Closest Elements,https://leetcode.com/problems/find-k-closest-elements/ ,Medium,LeetCode,"Heap",False,0.70
+Reorganize String,https://leetcode.com/problems/reorganize-string/ ,Medium,LeetCode,"Heap",False,0.65
+Rearrange String k Distance Apart,https://leetcode.com/problems/rearrange-string-k-distance-apart/ ,Hard,LeetCode,"Heap",True,0.50
+Distant Barcodes,https://leetcode.com/problems/distant-barcodes/ ,Medium,LeetCode,"Heap",False,0.60
+Sort Characters By Frequency,https://leetcode.com/problems/sort-characters-by-frequency/ ,Medium,LeetCode,"Heap",False,0.60
+Task Scheduler,https://leetcode.com/problems/task-scheduler/ ,Medium,LeetCode,"Greedy",False,0.75
+Reconstruct Itinerary,https://leetcode.com/problems/reconstruct-itinerary/ ,Hard,LeetCode,"Graph",False,0.60
+Alien Dictionary,https://leetcode.com/problems/alien-dictionary/ ,Hard,LeetCode,"Graph",False,0.65
+Number of Islands,https://leetcode.com/problems/number-of-islands/ ,Medium,LeetCode,"DFS, BFS",False,0.85
+Word Ladder,https://leetcode.com/problems/word-ladder/ ,Hard,LeetCode,"BFS",False,0.80
+Pacific Atlantic Water Flow,https://leetcode.com/problems/pacific-atlantic-water-flow/ ,Medium,LeetCode,"DFS, BFS",False,0.65
+Surrounded Regions,https://leetcode.com/problems/surrounded-regions/ ,Medium,LeetCode,"DFS",False,0.65
+Walls and Gates,https://leetcode.com/problems/walls-and-gates/ ,Medium,LeetCode,"BFS",False,0.60
+Word Search,https://leetcode.com/problems/word-search/ ,Medium,LeetCode,"Backtracking",False,0.75
+N-Queens,https://leetcode.com/problems/n-queens/ ,Hard,LeetCode,"Backtracking",False,0.65
+Combinations,https://leetcode.com/problems/combinations/ ,Medium,LeetCode,"Backtracking",False,0.65
+Permutations,https://leetcode.com/problems/permutations/ ,Medium,LeetCode,"Backtracking",False,0.70
+Subsets,https://leetcode.com/problems/subsets/ ,Medium,LeetCode,"Backtracking",False,0.75
+Combination Sum,https://leetcode.com/problems/combination-sum/ ,Medium,LeetCode,"Backtracking",False,0.75
+Letter Combinations of a Phone Number,https://leetcode.com/problems/letter-combinations-of-a-phone-number/ ,Medium,LeetCode,"Backtracking",False,0.70
+Generate Parentheses,https://leetcode.com/problems/generate-parentheses/ ,Medium,LeetCode,"Backtracking",False,0.75
+Merge Two Sorted Lists,https://leetcode.com/problems/merge-two-sorted-lists/ ,Easy,LeetCode,"Linked List",False,0.80
+Reverse Linked List,https://leetcode.com/problems/reverse-linked-list/ ,Easy,LeetCode,"Linked List",False,0.85
+Remove Nth Node From End of List,https://leetcode.com/problems/remove-nth-node-from-end-of-list/ ,Medium,LeetCode,"Linked List",False,0.75
+Reverse Linked List,https://leetcode.com/problems/reverse-linked-list/ ,Easy,LeetCode,"Linked List",False,0.85
+Remove Nth Node From End of List,https://leetcode.com/problems/remove-nth-node-from-end-of-list/ ,Medium,LeetCode,"Linked List",False,0.75
+Palindrome Linked List,https://leetcode.com/problems/palindrome-linked-list/ ,Easy,LeetCode,"Linked List",False,0.70
+Middle of the Linked List,https://leetcode.com/problems/middle-of-the-linked-list/ ,Easy,LeetCode,"Linked List",False,0.65
+Delete Node in a Linked List,https://leetcode.com/problems/delete-node-in-a-linked-list/ ,Easy,LeetCode,"Linked List",False,0.60
+Intersection of Two Linked Lists,https://leetcode.com/problems/intersection-of-two-linked-lists/ ,Easy,LeetCode,"Linked List",False,0.70
+Add Two Numbers,https://leetcode.com/problems/add-two-numbers/ ,Medium,LeetCode,"Linked List",False,0.85
+Swap Nodes in Pairs,https://leetcode.com/problems/swap-nodes-in-pairs/ ,Medium,LeetCode,"Linked List",False,0.55
+Copy List with Random Pointer,https://leetcode.com/problems/copy-list-with-random-pointer/ ,Medium,LeetCode,"Linked List",False,0.80
+Flatten a Multilevel Doubly Linked List,https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/ ,Medium,LeetCode,"Linked List",False,0.65
+Rotate List,https://leetcode.com/problems/rotate-list/ ,Medium,LeetCode,"Linked List",False,0.60
+Remove Duplicates from Sorted List,https://leetcode.com/problems/remove-duplicates-from-sorted-list/ ,Easy,LeetCode,"Linked List",False,0.60
+Remove Duplicates from Sorted List II,https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/ ,Medium,LeetCode,"Linked List",False,0.65
+Partition List,https://leetcode.com/problems/partition-list/ ,Medium,LeetCode,"Linked List",False,0.60
+Odd Even Linked List,https://leetcode.com/problems/odd-even-linked-list/ ,Medium,LeetCode,"Linked List",False,0.65
+Reorder List,https://leetcode.com/problems/reorder-list/ ,Medium,LeetCode,"Linked List",False,0.65
+LRU Cache,https://leetcode.com/problems/lru-cache/ ,Medium,LeetCode,"Design, Hash Map",False,0.80
+LFU Cache,https://leetcode.com/problems/lfu-cache/ ,Hard,LeetCode,"Design, Hash Map",True,0.65
+Merge k Sorted Lists,https://leetcode.com/problems/merge-k-sorted-lists/ ,Hard,LeetCode,"Heap",False,0.85
+Binary Tree Inorder Traversal,https://leetcode.com/problems/binary-tree-inorder-traversal/ ,Medium,LeetCode,"Tree",False,0.70
+Binary Tree Preorder Traversal,https://leetcode.com/problems/binary-tree-preorder-traversal/ ,Easy,LeetCode,"Tree",False,0.65
+Binary Tree Postorder Traversal,https://leetcode.com/problems/binary-tree-postorder-traversal/ ,Hard,LeetCode,"Tree",False,0.65
+Binary Tree Level Order Traversal,https://leetcode.com/problems/binary-tree-level-order-traversal/ ,Medium,LeetCode,"Tree, BFS",False,0.80
+Binary Tree Zigzag Level Order Traversal,https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/ ,Medium,LeetCode,"Tree, BFS",False,0.65
+Maximum Depth of Binary Tree,https://leetcode.com/problems/maximum-depth-of-binary-tree/ ,Easy,LeetCode,"Tree",False,0.70
+Minimum Depth of Binary Tree,https://leetcode.com/problems/minimum-depth-of-binary-tree/ ,Easy,LeetCode,"Tree",False,0.60
+Balanced Binary Tree,https://leetcode.com/problems/balanced-binary-tree/ ,Easy,LeetCode,"Tree",False,0.65
+Invert Binary Tree,https://leetcode.com/problems/invert-binary-tree/ ,Easy,LeetCode,"Tree",False,0.75
+Same Tree,https://leetcode.com/problems/same-tree/ ,Easy,LeetCode,"Tree",False,0.65
+Subtree of Another Tree,https://leetcode.com/problems/subtree-of-another-tree/ ,Easy,LeetCode,"Tree",False,0.70
+Symmetric Tree,https://leetcode.com/problems/symmetric-tree/ ,Easy,LeetCode,"Tree",False,0.75
+Path Sum,https://leetcode.com/problems/path-sum/ ,Easy,LeetCode,"Tree",False,0.65
+Path Sum II,https://leetcode.com/problems/path-sum-ii/ ,Medium,LeetCode,"Tree",False,0.70
+Sum Root to Leaf Numbers,https://leetcode.com/problems/sum-root-to-leaf-numbers/ ,Medium,LeetCode,"Tree",False,0.60
+Binary Tree Paths,https://leetcode.com/problems/binary-tree-paths/ ,Easy,LeetCode,"Tree",False,0.60
+Lowest Common Ancestor of a Binary Tree,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/ ,Medium,LeetCode,"Tree",False,0.80
+Lowest Common Ancestor of a Binary Search Tree,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/ ,Easy,LeetCode,"Tree",False,0.70
+Kth Smallest Element in a BST,https://leetcode.com/problems/kth-smallest-element-in-a-bst/ ,Medium,LeetCode,"Tree",False,0.75
+Validate Binary Search Tree,https://leetcode.com/problems/validate-binary-search-tree/ ,Medium,LeetCode,"Tree",False,0.80
+Search in a Binary Search Tree,https://leetcode.com/problems/search-in-a-binary-search-tree/ ,Easy,LeetCode,"Tree",False,0.65
+Convert Sorted Array to Binary Search Tree,https://leetcode.com/problems/convert-sorted-array-to-balanced-binary-search-tree/ ,Easy,LeetCode,"Tree",False,0.60
+Construct Binary Tree from Preorder and Inorder Traversal,https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/ ,Medium,LeetCode,"Tree",False,0.75
+Construct Binary Tree from Inorder and Postorder Traversal,https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/ ,Medium,LeetCode,"Tree",False,0.70
+Binary Tree Maximum Path Sum,https://leetcode.com/problems/binary-tree-maximum-path-sum/ ,Hard,LeetCode,"Tree",False,0.75
+Serialize and Deserialize Binary Tree,https://leetcode.com/problems/serialize-and-deserialize-binary-tree/ ,Hard,LeetCode,"Tree",False,0.80
+Populating Next Right Pointers in Each Node,https://leetcode.com/problems/populating-next-right-pointers-in-each-node/ ,Medium,LeetCode,"Tree",False,0.65
+Populating Next Right Pointers in Each Node II,https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/ ,Medium,LeetCode,"Tree",False,0.65
+Find Leaves of Binary Tree,https://leetcode.com/problems/find-leaves-of-binary-tree/ ,Medium,LeetCode,"Tree",False,0.60
+Binary Tree Cameras,https://leetcode.com/problems/binary-tree-cameras/ ,Hard,LeetCode,"Tree",False,0.60
+Distribute Coins in Binary Tree,https://leetcode.com/problems/distribute-coins-in-binary-tree/ ,Medium,LeetCode,"Tree",False,0.65
+Trim a Binary Search Tree,https://leetcode.com/problems/trim-a-binary-search-tree/ ,Easy,LeetCode,"Tree",False,0.60
+Two Sum IV - Input is a BST,https://leetcode.com/problems/two-sum-iv-input-is-a-bst/ ,Easy,LeetCode,"Tree",False,0.65
+All Elements in Two Binary Search Trees,https://leetcode.com/problems/all-elements-in-two-binary-search-trees/ ,Medium,LeetCode,"Tree",False,0.60
+Merge Intervals,https://leetcode.com/problems/merge-intervals/ ,Medium,LeetCode,"Array",False,0.85
+Insert Interval,https://leetcode.com/problems/insert-interval/ ,Hard,LeetCode,"Array",False,0.70
+Non-overlapping Intervals,https://leetcode.com/problems/non-overlapping-intervals/ ,Medium,LeetCode,"Greedy",False,0.60
+Meeting Rooms II,https://leetcode.com/problems/meeting-rooms-ii/ ,Medium,LeetCode,"Heap",False,0.70
+Find Minimum in Rotated Sorted Array,https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/ ,Medium,LeetCode,"Binary Search",False,0.70
+Search in Rotated Sorted Array,https://leetcode.com/problems/search-in-rotated-sorted-array/ ,Medium,LeetCode,"Binary Search",False,0.80
+Find Peak Element,https://leetcode.com/problems/find-peak-element/ ,Medium,LeetCode,"Binary Search",False,0.65
+Kth Smallest Element in a Sorted Matrix,https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/ ,Medium,LeetCode,"Binary Search",False,0.70
+Find First and Last Position of Element in Sorted Array,https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/ ,Medium,LeetCode,"Binary Search",False,0.80
+Median of Two Sorted Arrays,https://leetcode.com/problems/median-of-two-sorted-arrays/ ,Hard,LeetCode,"Binary Search",False,0.90
+Longest Increasing Subsequence,https://leetcode.com/problems/longest-increasing-subsequence/ ,Medium,LeetCode,"Dynamic Programming",False,0.80
+Word Break,https://leetcode.com/problems/word-break/ ,Medium,LeetCode,"Dynamic Programming",False,0.80
+Unique Paths,https://leetcode.com/problems/unique-paths/ ,Medium,LeetCode,"Dynamic Programming",False,0.70
+Coin Change,https://leetcode.com/problems/coin-change/ ,Medium,LeetCode,"Dynamic Programming",False,0.75
+Decode Ways,https://leetcode.com/problems/decode-ways/ ,Medium,LeetCode,"Dynamic Programming",False,0.75
+House Robber,https://leetcode.com/problems/house-robber/ ,Easy,LeetCode,"Dynamic Programming",False,0.75
+Minimum Path Sum,https://leetcode.com/problems/minimum-path-sum/ ,Medium,LeetCode,"Dynamic Programming",False,0.70
+Edit Distance,https://leetcode.com/problems/edit-distance/ ,Hard,LeetCode,"Dynamic Programming",False,0.80
+Interleaving String,https://leetcode.com/problems/interleaving-string/ ,Hard,LeetCode,"Dynamic Programming",False,0.65
+Distinct Subsequences,https://leetcode.com/problems/distinct-subsequences/ ,Hard,LeetCode,"Dynamic Programming",False,0.60
+Russian Doll Envelopes,https://leetcode.com/problems/russian-doll-envelopes/ ,Hard,LeetCode,"Dynamic Programming",False,0.65
+Combination Sum,https://leetcode.com/problems/combination-sum/ ,Medium,LeetCode,"Backtracking",False,0.75
+Permutations,https://leetcode.com/problems/permutations/ ,Medium,LeetCode,"Backtracking",False,0.70
+Subsets,https://leetcode.com/problems/subsets/ ,Medium,LeetCode,"Backtracking",False,0.75
+Letter Combinations of a Phone Number,https://leetcode.com/problems/letter-combinations-of-a-phone-number/ ,Medium,LeetCode,"Backtracking",False,0.70
+Generate Parentheses,https://leetcode.com/problems/generate-parentheses/ ,Medium,LeetCode,"Backtracking",False,0.75
+N-Queens,https://leetcode.com/problems/n-queens/ ,Hard,LeetCode,"Backtracking",False,0.65
+Sudoku Solver,https://leetcode.com/problems/sudoku-solver/ ,Hard,LeetCode,"Backtracking",False,0.65
+Word Search,https://leetcode.com/problems/word-search/ ,Medium,LeetCode,"Backtracking",False,0.75
+Word Ladder,https://leetcode.com/problems/word-ladder/ ,Hard,LeetCode,"BFS",False,0.80
+Number of Islands,https://leetcode.com/problems/number-of-islands/ ,Medium,LeetCode,"DFS, BFS",False,0.85
+Course Schedule,https://leetcode.com/problems/course-schedule/ ,Medium,LeetCode,"Graph",False,0.80
+Clone Graph,https://leetcode.com/problems/clone-graph/ ,Medium,LeetCode,"Graph",False,0.70
+Pacific Atlantic Water Flow,https://leetcode.com/problems/pacific-atlantic-water-flow/ ,Medium,LeetCode,"DFS, BFS",False,0.65
+Cheapest Flights Within K Stops,https://leetcode.com/problems/cheapest-flights-within-k-stops/ ,Medium,LeetCode,"Graph",False,0.70
+Alien Dictionary,https://leetcode.com/problems/alien-dictionary/ ,Hard,LeetCode,"Graph",False,0.65
+Reconstruct Itinerary,https://leetcode.com/problems/reconstruct-itinerary/ ,Hard,LeetCode,"Graph",False,0.60
+Redundant Connection,https://leetcode.com/problems/redundant-connection/ ,Medium,LeetCode,"Union-Find",False,0.70
+Most Stones Removed with Same Row or Column,https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/ ,Medium,LeetCode,"Union-Find",False,0.60
+Accounts Merge,https://leetcode.com/problems/accounts-merge/ ,Medium,LeetCode,"Union-Find",False,0.70
+Smallest String With Swaps,https://leetcode.com/problems/smallest-string-with-swaps/ ,Medium,LeetCode,"Union-Find",False,0.65
+Evaluate Division,https://leetcode.com/problems/evaluate-division/ ,Medium,LeetCode,"Graph",False,0.65
+Top K Frequent Elements,https://leetcode.com/problems/top-k-frequent-elements/ ,Medium,LeetCode,"Heap",False,0.75
+K Closest Points to Origin,https://leetcode.com/problems/k-closest-points-to-origin/ ,Medium,LeetCode,"Heap",False,0.70
+Find Median from Data Stream,https://leetcode.com/problems/find-median-from-data-stream/ ,Hard,LeetCode,"Heap",False,0.70
+Sliding Window Maximum,https://leetcode.com/problems/sliding-window-maximum/ ,Hard,LeetCode,"Deque",False,0.75
+Daily Temperatures,https://leetcode.com/problems/daily-temperatures/ ,Medium,LeetCode,"Stack",False,0.75
+Largest Rectangle in Histogram,https://leetcode.com/problems/largest-rectangle-in-histogram/ ,Hard,LeetCode,"Stack",False,0.70
+Trapping Rain Water,https://leetcode.com/problems/trapping-rain-water/ ,Hard,LeetCode,"Two Pointers",False,0.80
+Basic Calculator II,https://leetcode.com/problems/basic-calculator-ii/ ,Medium,LeetCode,"Stack",False,0.60
+Implement Trie (Prefix Tree),https://leetcode.com/problems/implement-trie-prefix-tree/ ,Medium,LeetCode,"Trie",False,0.75
+Word Search II,https://leetcode.com/problems/word-search-ii/ ,Hard,LeetCode,"Trie",False,0.70
+Time Based Key-Value Store,https://leetcode.com/problems/time-based-key-value-store/ ,Medium,LeetCode,"Hash Map",False,0.65
+Design Twitter,https://leetcode.com/problems/design-twitter/ ,Medium,LeetCode,"Design",False,0.70
+Find Minimum in Rotated Sorted Array,https://www.geeksforgeeks.org/find-minimum-element-in-a-sorted-and-rotated-array/ ,Medium,GFG,"Array",False,0.70
+Search an Element in a Sorted and Rotated Array,https://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-rotated-array/ ,Medium,GFG,"Array",False,0.75
+Merge Two Sorted Arrays Without Extra Space,https://www.geeksforgeeks.org/merge-two-sorted-arrays-o1-extra-space/ ,Hard,GFG,"Array",False,0.65
+Find the Majority Element in O(n) Time and O(1) Space,https://www.geeksforgeeks.org/majority-element/ ,Easy,GFG,"Array",False,0.80
+Rearrange Array Alternately (max, min, max, min...),https://www.geeksforgeeks.org/rearrange-array-maximum-minimum-form/ ,Medium,GFG,"Array",False,0.60
+Leaders in an Array,https://www.geeksforgeeks.org/print-all-the-rolling-numbers-less-than-n-in-a-range/ ,Easy,GFG,"Array",False,0.65
+Trapping Rain Water,https://www.geeksforgeeks.org/trapping-rain-water/ ,Hard,GFG,"Array",False,0.85
+Maximum Sum Subarray of Size K,https://www.geeksforgeeks.org/window-sliding-technique/ ,Easy,GFG,"Array",False,0.70
+Longest Subarray Having Sum K (Positive and Negative Numbers),https://www.geeksforgeeks.org/find-the-longest-subarray-with-k-sum-in-an-array/ ,Medium,GFG,"Array",False,0.65
+Find the Missing Number in an Array of 1 to N,https://www.geeksforgeeks.org/find-the-missing-number/ ,Easy,GFG,"Array",False,0.80
+Count Pairs With Given Sum in an Array,https://www.geeksforgeeks.org/count-pairs-with-given-sum/ ,Medium,GFG,"Array",False,0.70
+Rotate an Array by N Elements,https://www.geeksforgeeks.org/array-rotation/ ,Easy,GFG,"Array",False,0.60
+Reverse an Array in Groups of Given Size,https://www.geeksforgeeks.org/reverse-an-array-in-groups-of-given-size/ ,Easy,GFG,"Array",False,0.55
+Check for Pair in an Array with a Given Sum,https://www.geeksforgeeks.org/given-an-array-a-and-a-number-x-check-for-pair-in-a-with-sum-as-x/ ,Medium,GFG,"Array",False,0.70
+Find All Pairs With a Given Difference,https://www.geeksforgeeks.org/find-a-pair-with-the-given-difference/ ,Medium,GFG,"Array",False,0.60
+Sort an Array of 0s, 1s and 2s,https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/ ,Easy,GFG,"Array",False,0.75
+Find the Duplicate in an Array of N+1 Elements,https://www.geeksforgeeks.org/find-the-repeating-and-the-missing/ ,Medium,GFG,"Array",False,0.70
+Merge Intervals,https://www.geeksforgeeks.org/merge-overlapping-intervals/ ,Medium,GFG,"Array",False,0.80
+Find the Row with Maximum Number of 1s,https://www.geeksforgeeks.org/find-the-row-with-maximum-number-of-1s/ ,Medium,GFG,"Matrix",False,0.60
+Print Matrix in Spiral Form,https://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/ ,Medium,GFG,"Matrix",False,0.70
+Rotate Matrix by 90 Degrees Clockwise,https://www.geeksforgeeks.org/inplace-rotate-square-matrix-by-90-degrees/ ,Medium,GFG,"Matrix",False,0.65
+Search in a Row-wise and Column-wise Sorted Matrix,https://www.geeksforgeeks.org/search-in-row-wise-and-column-wise-sorted-matrix/ ,Medium,GFG,"Matrix",False,0.65
+Find Median in a Row-Wise Sorted Matrix,https://www.geeksforgeeks.org/matrix-medians-row-wise-sorted/ ,Hard,GFG,"Matrix",False,0.55
+Print Diagonal Elements of a Matrix,https://www.geeksforgeeks.org/program-print-diagonally/ ,Medium,GFG,"Matrix",False,0.50
+Find the Largest Rectangular Binary Submatrix with Equal 0s and 1s,https://www.geeksforgeeks.org/largest-rectangular-sub-matrix-with-equal-number-of-1s-and-0s/ ,Hard,GFG,"Matrix",False,0.45
+Find the Length of Longest Consecutive Sequence in Binary Tree,https://www.geeksforgeeks.org/longest-consecutive-sequence-binary-tree/ ,Medium,GFG,"Tree",False,0.60
+Convert a Binary Tree to its Mirror Tree,https://www.geeksforgeeks.org/write-an-efficient-c-function-to-convert-a-tree-into-its-mirror-tree/ ,Easy,GFG,"Tree",False,0.65
+Check if Two Trees are Mirror of Each Other,https://www.geeksforgeeks.org/check-if-two-trees-are-mirror/ ,Easy,GFG,"Tree",False,0.60
+Determine if Two Trees are Identical,https://www.geeksforgeeks.org/write-c-code-to-determine-if-two-trees-are-identical/ ,Easy,GFG,"Tree",False,0.65
+Lowest Common Ancestor in a Binary Tree,https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/ ,Medium,GFG,"Tree",False,0.75
+Check if a Binary Tree is Height Balanced or Not,https://www.geeksforgeeks.org/how-to-determine-if-a-binary-tree-is-balanced/ ,Easy,GFG,"Tree",False,0.70
+Boundary Traversal of Binary Tree,https://www.geeksforgeeks.org/boundary-traversal-of-binary-tree/ ,Medium,GFG,"Tree",False,0.65
+Vertical Order Traversal of Binary Tree,https://www.geeksforgeeks.org/print-binary-tree-vertical-order/ ,Medium,GFG,"Tree",False,0.60
+Bottom View of Binary Tree,https://www.geeksforgeeks.org/bottom-view-binary-tree/ ,Medium,GFG,"Tree",False,0.60
+Top View of Binary Tree,https://www.geeksforgeeks.org/print-nodes-top-view-binary-tree/ ,Medium,GFG,"Tree",False,0.60
+Diagonal Traversal of Binary Tree,https://www.geeksforgeeks.org/diagonal-traversal-of-binary-tree/ ,Medium,GFG,"Tree",False,0.55
+Construct Tree from Preorder and Inorder Traversal,https://www.geeksforgeeks.org/construct-tree-from-given-inorder-and-preorder-traversal/ ,Hard,GFG,"Tree",False,0.65
+Serialize and Deserialize a Binary Tree,https://www.geeksforgeeks.org/serialize-deserialize-binary-tree/ ,Hard,GFG,"Tree",False,0.70
+Connect Nodes at Same Level in a Binary Tree,https://www.geeksforgeeks.org/connect-nodes-at-same-level/ ,Hard,GFG,"Tree",False,0.60
+Populate Inorder Successor for All Nodes,https://www.geeksforgeeks.org/populate-inorder-successor-for-all-nodes/ ,Hard,GFG,"Tree",False,0.55
+Flatten a Binary Tree to Linked List,https://www.geeksforgeeks.org/flatten-a-binary-tree-into-linked-list/ ,Medium,GFG,"Tree",False,0.65
+Convert Binary Tree to Doubly Linked List,https://www.geeksforgeeks.org/in-place-conversion-of-sorted-dll-to-balanced-bst/ ,Medium,GFG,"Tree",False,0.60
+Print All Root to Leaf Paths,https://www.geeksforgeeks.org/given-a-binary-tree-print-all-root-to-leaf-paths/ ,Medium,GFG,"Tree",False,0.60
+Kth Ancestor of a Node in Binary Tree,https://www.geeksforgeeks.org/k-th-ancestor-of-a-node-in-binary-tree/ ,Medium,GFG,"Tree",False,0.55
+Sum of All Left Leaves in a Binary Tree,https://www.geeksforgeeks.org/find-sum-of-all-left-leaves-in-a-given-binary-tree/ ,Easy,GFG,"Tree",False,0.50
+Find Distance Between Two Nodes of a Binary Tree,https://www.geeksforgeeks.org/find-distance-between-two-nodes-of-a-binary-tree/ ,Hard,GFG,"Tree",False,0.60
+Check if a Binary Tree is a Sum Tree or Not,https://www.geeksforgeeks.org/check-if-a-given-binary-tree-is-sumtree/ ,Medium,GFG,"Tree",False,0.60
+Check if a Binary Tree is Symmetric,https://www.geeksforgeeks.org/symmetric-tree-tree-data-structure/ ,Easy,GFG,"Tree",False,0.70
+Maximum Path Sum in a Binary Tree,https://www.geeksforgeeks.org/find-maximum-path-sum-in-a-binary-tree/ ,Hard,GFG,"Tree",False,0.70
+Check if a Binary Tree is a BST or Not,https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/ ,Medium,GFG,"Tree",False,0.75
+Inorder Successor in BST,https://www.geeksforgeeks.org/inorder-succesor-node-in-binary-search-tree/ ,Medium,GFG,"Tree",False,0.60
+Kth Smallest Element in a BST,https://www.geeksforgeeks.org/find-k-th-smallest-element-in-bst-using-o1-extra-space/ ,Medium,GFG,"Tree",False,0.70
+Ceil and Floor in a BST,https://www.geeksforgeeks.org/floor-and-ceil-from-a-bst/ ,Medium,GFG,"Tree",False,0.55
+Insertion in a Binary Search Tree,https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/ ,Easy,GFG,"Tree",False,0.60
+Deletion in a Binary Search Tree,https://www.geeksforgeeks.org/binary-search-tree-set-2-delete/ ,Medium,GFG,"Tree",False,0.65
+Construct BST from Preorder Traversal,https://www.geeksforgeeks.org/construct-bst-from-given-preorder-traversal/ ,Medium,GFG,"Tree",False,0.60

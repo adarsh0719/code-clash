@@ -1,0 +1,260 @@
+{% extends "tracker/base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1 class="mb-4">My DSA Progress Dashboard</h1>
+    
+    <!-- Stats Cards -->
+    <div class="row mb-4">
+        <div class="col-md-3 mb-3">
+            <div class="card text-white bg-primary h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Solved Problems</h5>
+                    <h2 class="card-text">{{ solved_problems }}</h2>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3 mb-3">
+            <div class="card text-white bg-success h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Current Streak</h5>
+                    <h2 class="card-text">{{ streak.current_streak }} days</h2>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3 mb-3">
+            <div class="card text-white bg-info h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Time Spent</h5>
+                    <h2 class="card-text">
+                        {% if entry.time_spent %}
+                            {{ entry.time_spent }}
+                        {% else %}
+                            0:00:00
+                        {% endif %}
+                    </h2>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3 mb-3">
+            <div class="card text-white bg-warning h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Longest Streak</h5>
+                    <h2 class="card-text">{{ streak.longest_streak }} days</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Difficulty Distribution -->
+    <div class="row mb-4">
+        <div class="col-md-6 mb-3">
+            <div class="card h-100">
+                <div class="card-header bg-light">
+                    <h5>Problems by Difficulty</h5>
+                </div>
+                <div class="card-body">
+                    <canvas id="difficultyChart" width="400" height="300"></canvas>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Topic Progress -->
+        <div class="col-md-6 mb-3">
+            <div class="card h-100">
+                <div class="card-header bg-light">
+                    <h5>Topic Progress</h5>
+                </div>
+                <div class="card-body">
+                    <canvas id="topicProgressChart" width="400" height="300"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Recent Activity -->
+    <div class="row mb-4">
+        <div class="col-md-6 mb-3">
+            <div class="card h-100">
+                <div class="card-header bg-light">
+                    <h5>Recent Activity</h5>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group">
+                        {% for activity in recent_activity %}
+                  <li class="list-group-item" style="display: flex; justify-content: space-between; align-items: center;">
+    <span style="flex: 1;">{{ activity.problem.title }}</span>
+    <span style="display: flex; align-items: center;">
+        <span style="
+            font-size: 0.85rem;
+            padding: 0.35em 0.6em;
+            border-radius: 0.5rem;
+            color: white;
+            background-color: {% if activity.problem.difficulty == 'Easy' %}#198754{% elif activity.problem.difficulty == 'Medium' %}#ffc107{% else %}#dc3545{% endif %};
+            margin-right: 8px;
+        ">
+            {{ activity.problem.difficulty }}
+        </span>
+        <small style="color: #6c757d; font-size: 0.85rem;">
+            {{ activity.solve_date|timesince }} ago
+        </small>
+    </span>
+</li>
+
+
+                        {% empty %}
+                        <li class="list-group-item">No recent activity</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Goals & Achievements -->
+        <div class="col-md-6">
+            <div class="row">
+                <!-- Goals -->
+                <div class="col-12 mb-3">
+                    <div class="card h-100">
+                        <div class="card-header bg-light">
+                            <h5>Your Goals</h5>
+                        </div>
+                        <div class="card-body">
+                            {% if active_goals %}
+                                {% for goal in active_goals %}
+                                <div class="mb-3">
+                                    <h6>{{ goal.target }} problems {{ goal.period|lower }}</h6>
+                                    <p>
+                                        <strong>Period:</strong> {{ goal.start_date|date:"M d, Y" }} to 
+                                        {% if goal.end_date %}
+                                            {{ goal.end_date|date:"M d, Y" }}
+                                        {% else %}
+                                            Ongoing
+                                        {% endif %}
+                                    </p>
+                                </div>
+                                {% endfor %}
+                            {% else %}
+                                <p>No active goals. <a href="{% url 'set_goal' %}">Set a goal</a></p>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Achievements -->
+                <div class="col-12">
+                    <div class="card h-100">
+                        <div class="card-header bg-light">
+                            <h5>Achievements</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex flex-wrap">
+                                {% for achievement in achievements %}
+                                <div class="m-2 text-center">
+                                    <i class="bi bi-trophy fs-1 text-warning"></i>
+                                    <p class="mb-0">{{ achievement.achievement.name }}</p>
+                                </div>
+                                {% empty %}
+                                <p>No achievements yet. Keep solving problems!</p>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Difficulty Chart
+    const difficultyCtx = document.getElementById('difficultyChart').getContext('2d');
+    const difficultyChart = new Chart(difficultyCtx, {
+        type: 'pie',
+        data: {
+            labels: ['Easy', 'Medium', 'Hard'],
+            datasets: [{
+                data: [
+                    {{ difficulty_data.Easy|default:"0" }},
+                    {{ difficulty_data.Medium|default:"0" }},
+                    {{ difficulty_data.Hard|default:"0" }}
+                ],
+                backgroundColor: [
+                    'rgba(40, 167, 69, 0.7)',
+                    'rgba(255, 193, 7, 0.7)',
+                    'rgba(220, 53, 69, 0.7)'
+                ],
+                borderColor: [
+                    'rgba(40, 167, 69, 1)',
+                    'rgba(255, 193, 7, 1)',
+                    'rgba(220, 53, 69, 1)'
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'top',
+                },
+                title: {
+                    display: true,
+                    text: 'Problems by Difficulty'
+                }
+            }
+        }
+    });
+
+    // Topic Progress Chart
+    const topicCtx = document.getElementById('topicProgressChart').getContext('2d');
+
+    const topicLabels = [{% for topic in topic_progress %}"{{ topic.topic.name }}"{% if not forloop.last %}, {% endif %}{% endfor %}];
+    const topicData = [{% for topic in topic_progress %}{{ topic.percentage|default:"0" }}{% if not forloop.last %}, {% endif %}{% endfor %}];
+
+    const topicChart = new Chart(topicCtx, {
+        type: 'bar',
+        data: {
+            labels: topicLabels,
+            datasets: [{
+                label: 'Completion %',
+                data: topicData,
+                backgroundColor: 'rgba(54, 162, 235, 0.7)',
+                borderColor: 'rgba(54, 162, 235, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    max: 100,
+                    title: {
+                        display: true,
+                        text: 'Percentage'
+                    }
+                },
+                x: {
+                    title: {
+                        display: true,
+                        text: 'Topics'
+                    }
+                }
+            },
+            plugins: {
+                title: {
+                    display: true,
+                    text: 'Topic Completion'
+                }
+            }
+        }
+    });
+</script>
+
+
+{% endblock %}

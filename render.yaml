@@ -1,12 +1,20 @@
 services:
   - type: web
-    name: code-clash
+    name: dsa-tracker
     env: python
-    buildCommand: pip install -r requirements.txt
+    buildCommand: ./build.sh
     startCommand: gunicorn dsa_tracker.wsgi:application
     envVars:
       - key: DJANGO_SECRET_KEY
         value: k!km)cxrx)5e+9x_f1bdxhr!33w!9aamct5pts!kgt7w7ga5bq
       - key: PYTHON_VERSION
         value: 3.12.3
-
+      - key: RENDER
+        value: True
+      - key: DISABLE_COLLECTSTATIC
+        value: 0
+      - key: RENDER_EXTERNAL_HOSTNAME
+        fromService:
+          type: web
+          name: dsa-tracker
+          property: url

@@ -14,11 +14,11 @@ RUN python -m venv /opt/venv
 RUN /opt/venv/bin/pip install --upgrade pip setuptools wheel
 RUN /opt/venv/bin/pip install -r requirements.txt
 
-# Expose the port your app runs on
-EXPOSE 8000
-
 # Set environment path to use the venv
 ENV PATH="/opt/venv/bin:$PATH"
 
-# Start the Django app using gunicorn
-CMD ["gunicorn", "dsa_tracker.wsgi:application", "--bind", "0.0.0.0:8000"]
+# Expose the port
+EXPOSE 8000
+
+# Run migrations, collectstatic, then start Gunicorn
+CMD ["sh", "-c", "python manage.py migrate && python manage.py collectstatic --noinput && gunicorn dsa_tracker.wsgi:application --bind 0.0.0.0:8000"]

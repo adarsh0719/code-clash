@@ -21,4 +21,12 @@ ENV PATH="/opt/venv/bin:$PATH"
 EXPOSE 8000
 
 # Run migrations, collectstatic, then start Gunicorn
-CMD ["sh", "-c", "python manage.py migrate && python manage.py collectstatic --noinput && gunicorn dsa_tracker.wsgi:application --bind 0.0.0.0:8000"]
+CMD ["sh", "-c", "\
+  python manage.py migrate && \
+  python manage.py collectstatic --noinput && \
+  python manage.py loaddata initialdata.json && \
+  echo \"from django.contrib.auth import get_user_model; \
+  User = get_user_model(); \
+  User.objects.filter(username='admin').exists() or \
+  User.objects.create_superuser('admin', 'admin@example.com', 'adminpass')\" | python manage.py shell && \
+  gunicorn dsa_tracker.wsgi:application --bind 0.0.0.0:8000"]

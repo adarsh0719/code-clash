@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: dsa-tracker
+    name: code-clash
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn dsa_tracker.wsgi:application

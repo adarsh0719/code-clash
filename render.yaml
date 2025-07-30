@@ -4,7 +4,7 @@ services:
     env: python
     buildCommand: ./build.sh
     startCommand: gunicorn dsa_tracker.wsgi:application
-    envVars:
+    environment:
       - key: DJANGO_SECRET_KEY
         value: k!km)cxrx)5e+9x_f1bdxhr!33w!9aamct5pts!kgt7w7ga5bq
       - key: PYTHON_VERSION
@@ -18,3 +18,5 @@ services:
           type: web
           name: dsa-tracker
           property: url
+      - key: APT_GET_INSTALL
+        value: "python3-dev build-essential libpq-dev"
